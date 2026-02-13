@@ -11,3 +11,28 @@ print("===== operdores matematios =====")
 # /
 # **
 # % Modulo
+print(int(2*3))
+print(int(4*8))
+print( float(10%2))
+print(float(25%4))
+
+ventas = 6666
+print("Nuestras ventas fueron: ", ventas)
+
+is_active = True
+print(bool(is_active))
+
+game_over = False 
+print(game_over)
+
+edad = 16
+if(edad >= 18):
+    print("si puedo entrara el bar")
+else: 
+ print("no puedo entrar al bar")
+mi_numero = int(input("¿cual es el numero que deseas verificar?"))
+print(f"El numero que deseas verificar es {mi_numero}")
+if mi_numero%2 == 0:
+ print(f"el numero{mi_numero}es par")
+else: 
+   print(f"el numero{mi_numero}es impar")
