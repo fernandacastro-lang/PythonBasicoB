@@ -8,3 +8,14 @@ mi_lista = [1, 3.1416, "fernanda", mi_tupla]
 print("el primer elemento de mi lista: ", mi_lista[0])
 print("elcuarto elemnto de mi lista: ", mi_lista[3])
 print("el terer elemento de mi lista: ", mi_lista[2])
+
+#Diccionario 
+mi_diccionario={
+"mi_lista":mi_lista,
+"nombre":"Fernanda",
+"Pi":13.1416,
+"Tel":"665453-999"
+}
+print("llave para accesar a mi diccionario mi_lista", mi_diccionario ["mi_lista"])
+print("Llave para accesar a mi diccionario pi", mi_diccionario ["Pi"])
+print("Llave para accesar a mi diccionario tel", mi_diccionario ["Tel"])
